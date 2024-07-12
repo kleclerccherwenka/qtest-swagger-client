@@ -154,8 +154,8 @@ class TestCaseWithCustomFieldResource(object):
         :param name: The name of this TestCaseWithCustomFieldResource.
         :type: str
         """
-        if name is not None and len(name) > 500:
-            raise ValueError("Invalid value for `name`, length must be less than or equal to `500`")
+        if name is not None and len(name) > 1000:
+            raise ValueError("Invalid value for `name`, length must be less than or equal to `1000`")
         if name is not None and len(name) < 1:
             raise ValueError("Invalid value for `name`, length must be greater than or equal to `1`")
 
