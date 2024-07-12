@@ -35,7 +35,7 @@ class PagedResource(object):
             'page': 'int',
             'page_size': 'int',
             'total': 'int',
-            'items': 'list[ResourceSupport]'
+            'items': 'list[TestCaseWithCustomFieldResource]'
         }
 
         self.attribute_map = {
